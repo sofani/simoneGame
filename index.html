@@ -18,22 +18,22 @@
    
      <div class="container">
            <div class="simonBoard">
-                <div id="0" class="pad green"></div>
-                <div id="1" class="pad red"></div>
-                <div id="2" class="pad yellow"></div>
-                <div id="3" class="pad blue"></div>
+                <div id="one"   class="pad green"></div>
+                <div id="two"   class="pad red"></div>
+                <div id="three" class="pad yellow"></div>
+                <div id="four"  class="pad blue"></div>
 
                 <div class="controls">
                 	<div class="title">SIMON</div>
-                    <div class="display inline">00</div>
-                    <div class="start inline">Start</div>
-                    <div class="strict inline">Strict</div>
+                    <div id="count" class="display inline">00</div>
+                    <div id="start" class="start inline">Start</div>
+                    <div id="strict" class="strict inline">Strict</div>
                     <div class="switchContainer">
-                    	<p class="off inline">OFF</p>
-                    	<div class="outer-Switch inline">
+                    	<p id="off" class="off inline">OFF</p>
+                    	<!-- <div class="outer-Switch inline">
                     		<div class="inner-Switch"></div>
-                    	</div>
-                    	<p class="on inline">ON</p>
+                    	</div> -->
+                    	<p id="on" class="on inline">ON</p>
                     </div>
                 </div>
            </div>
@@ -41,6 +41,18 @@
 
        
     </div>
+    <audio id="audio1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+    </audio>
 
    
 </body>

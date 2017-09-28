@@ -51,7 +51,7 @@ body {
 	background-color: blue;
 	border-radius: 0 0 300px 0;
 }
-.yellow-active {
+.blue-active {
 
 	background-color: darkblue !important;
 }
@@ -92,11 +92,13 @@ body {
 	text-align: center;
 	border-radius: 30px;
 	border: solid 2px black;
-	width: 50px;
+	width: 52px;
 	height: 50px;
 	color: black;
-	font-size: 22px;
+	font-size: 17px;
     line-height: 55px;
+    font-weight: bold;
+    cursor:default
 }
 .start {
   	background-color: red;
@@ -105,7 +107,7 @@ body {
 .strict {
  	background-color: yellow;
 }
-.outer-Switch{
+/*.outer-Switch{
 	width: 60px;
 	height: 30px;
 	border: solid 1px black;
@@ -118,6 +120,26 @@ body {
    background-color: gray;
 
 
+}*/
+
+.on, .off {
+    margin-top: 10px;
+    text-align: center;
+	padding: auto;
+	border: solid 2px black;
+	width: 37px;
+	height: 35px;
+	color: black;
+	font-size: 16px;
+    /*line-height: 55px;*/
+    font-weight: bold;
+    cursor:default
+
+
 }
-
-
+.on {
+  background-color: #ccc;
+}
+.off {
+  background-color: #2196F3;
+}
