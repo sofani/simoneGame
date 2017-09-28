@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     function change1() {
 
-        //set interval length
+               //set interval length
                 if (count <= 10) {
                     off = 400;
                     on  = 800;
